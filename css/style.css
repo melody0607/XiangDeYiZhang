@@ -32,7 +32,7 @@ Main Components
   position: relative;
   height: 100px;
   width: 90%;
-  max-width: 800px;
+  max-width:100%;
   margin: 0 auto;
 }
 .cd-horizontal-timeline .events-wrapper {
@@ -93,7 +93,7 @@ Main Components
   bottom: 0;
   z-index: 2;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding-bottom: 15px;
   /* fix bug on Safari - text flickering while timeline translates */
   -webkit-transform: translateZ(0);
@@ -199,6 +199,7 @@ Main Components
 .cd-timeline-navigation a.next {
   right: 0;
 }
+.cd-timeline-navigation a.next:hover{opacity:0.9;}
 .no-touch .cd-timeline-navigation a:hover {
   border-color: #7b9d6f;
 }
@@ -232,7 +233,7 @@ Main Components
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
   transform: translateX(-100%);
-  padding: 0 5%;
+  padding: 0%;
   opacity: 0;
   -webkit-animation-duration: 0.4s;
   -moz-animation-duration: 0.4s;
@@ -273,9 +274,9 @@ Main Components
 }
 .cd-horizontal-timeline .events-content h2 {
   font-weight: bold;
-  font-size: 22rem;
+  font-size: 1.6rem;
   font-family: "Playfair Display", serif;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 .cd-horizontal-timeline .events-content em {
   display: block;
@@ -290,10 +291,10 @@ Main Components
     font-size:1.6rem;
   }
   .cd-horizontal-timeline .events-content em {
-    font-size:1.4rem;
+    font-size:1.2rem;
   }
   .cd-horizontal-timeline .events-content p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 

@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
 	<meta charset="utf-8">
-	<title>电商助农首页</title>
+	<title>乡得益彰</title>
 	<meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
 	<link rel="stylesheet" type="text/css" href="css/firstpart.css"	/>
 	<link rel="stylesheet" href="css/style.css"> <!-- 时间轴Resource style -->
@@ -16,41 +16,34 @@
 <!--===封面部分===-->
 	<header class="frontCover">	
 		<div id="011" name="011">
-			<p><a href="page-201818340406-huangyuxuan-201818340407-jiazhongqi-1702.html">关于&nbsp;</a></p>
+			<p><a href="page2.html">关于&nbsp;</a></p>
 		</div>
 			<audio controls autoplay>
 				<source src="music/1701spring.mp3" type="audio/ogg">
     		</audio>
+		<div class="logo">
+			<a href="#022" title="引导符号">点击体验</a>
+		</div>
 	</header>
 <!--封面部分结束-->
 	
 	<main>
-<!--===引导符号开始===-->
-		<div class="logo">
-			<a href="#022" title="引导符号">
-				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-1705.png" alt="logo" width="72" height="70">
-			</a>
-		</div>
-<!--引导符号结束-->
-	
 <!--===故事开头===-->
 		<div>
 		<hr id="022" name="022">
 		<div class="story">
 			<p>
-				2020年是脱贫攻坚决胜之年，农村产业兴旺事关乡村振兴的大局，而突如其来的新冠肺炎疫情打破了人们的生活，农产品面临着大量滞销。电商助农作为乡村振兴战略的重要手段，在疫情期间不仅为无数滞销的农产品带来新消费，更为地方经济的复苏注入了新活力。接下来你将通过一个新的身份来感受电商助农的魅力。
+				&nbsp;&nbsp;&nbsp;&nbsp;2021年2月25日，习近平总书记在全国脱贫攻坚总结表彰大会上庄严宣告，我国脱贫攻坚战取得了全面胜利。此后，全面推进乡村振兴成为三农工作的新重心。6月1日，《中华人民共和国乡村振兴促进法》正式实施，标志我国乡村振兴战略迈入了有法可依、依法实施的新阶段。
+				<br><br>&nbsp;&nbsp;&nbsp;&nbsp;新冠肺炎疫情中，电商为无数滞销的农产品带来新消费，也为地方经济的复苏注入了新活力。如今，电商助农的常态化，更是巩固脱贫攻坚成果与衔接乡村振兴的有效手段。电商助农的魅力究竟在何处？接下来请通过解锁一个新身份来感受吧。
+				<br><br>&nbsp;&nbsp;&nbsp;&nbsp;剧情开始：您是一位来自农村的果农，主要从事农产品的实体销售。然而，突如其来的新冠肺炎疫情打破了生活的平静，自家农产品销售渠道受阻，您正面临着严重的产品滞销问题。此时，当地有关部门正在普及电商助农的新方式，您是否愿意尝试?
 			</p>
-			<div>
-				<p id="qustionOne">
-					你是一位勤勤恳恳的农民，一直以种植和实体销售农产品为主要经济来源。可受疫情影响，自家农产品销售渠道受阻，你面临着严重的产品滞销。正当你为疫情造成的经济损失一筹莫展之时，当地有关部门向你推荐了电商助农的新模式，希望能帮助你渡过难关。你是否选择愿意选择尝试?
-				</p>
 			</div>
 		</div>
 			<button onclick="myFunction()" class="button-one">不尝试</button>
 			<p id="demo"></p>
 			<script>
 				function myFunction(){
-					alert("可能找到了其它方法渡过难关\n但是这边建议您尝试一下电商助农！");
+					alert("可能找到了其它方法渡过难关\n但是这边建议您尝试一下电商助农哦！");
 				}
 			</script>
 		<p class="buttonB">
@@ -60,7 +53,7 @@
 	
 <!--===故事第一部分===-->
 		<div class="firstpart">
-			<h1 id="033" name="033">中国电商发展史回顾</h1>
+			<h1 id="033" name="033">农村电商前景广阔</h1>
 			<!--时间轴-->
 			<div class="line">
 				<section class="cd-horizontal-timeline">
@@ -156,15 +149,13 @@
 		<script src="js/jquery.mobile.custom.min.js"></script>
 		<script src="js/main.js"></script>
 		<!--时间轴结束-->	
-
-
-		<h1 id="develope">农村电商稳步发展、前景广阔</h1>
+		<h3>(轻触图表查看详细数据)</h3>
 		<!--发展背景柱状图-->
-		<div id="main" style="width:650px;height:320px;margin: 0 auto"></div>
+		<div id="main" style="width:360px;height:270px;margin: 0 auto"></div>
 		<script>
 		   var myChart = echarts.init(document.getElementById('main'));
 			var option = { title: {
-				text: '我国网络零售市场和农产品网络销售额变化',
+				text: '',
 					x:'center',
 					y:'bottom',
 					textStyle: {
@@ -175,7 +166,7 @@
 							type: 'cross',
 							crossStyle: {
 							color: '#999'}}},
-					grid:{bottom:'20%',
+					grid:{bottom:'25%',
 						  right:'5%'},
 					toolbox: {
 							feature: {
@@ -185,10 +176,10 @@
 							saveAsImage: {show: true}
 								}
 							},
-					legend: {data: ['中国网络零售交易额（亿元）', '农产品网络零售额（亿元）', '农产品网络销售额占网络销售总额比重']},
+
 					xAxis: [{
 							type: 'category',
-							data: ['2013', '2014', '2015', '2016', '2017', '2018', '2019'],
+							data: [ '2014', '2015', '2016', '2017', '2018', '2019','2020'],
 							axisPointer: {
 								type: 'shadow'},
 								axisLabel:{color:'#412614'},
@@ -199,10 +190,10 @@
 					yAxis: [
 							{
 							type: 'value',
-							name: '亿元',
+							name: '百亿元',
 							min: 0,
-							max: 120000,
-							interval: 20000,
+							max: 1200,
+							interval: 200,
 							axisLabel: {
 									formatter: '{value} '},
 									axisLabel:{color:'#412614'},
@@ -210,7 +201,7 @@
 									lineStyle:{color:'#412614'},},},
 							{
 							type: 'value',
-							name: '比重',
+							name: '%',
 							min: 0,
 							max:6,
 							interval:1,
@@ -218,32 +209,34 @@
 								formatter: '{value} %'}}],
 					series: [
 							{
-							name: '中国网络零售交易额（亿元）',
+							name: '中国网络零售交易额（百亿元）',
 							type: 'bar',
 							itemStyle:{color:'#ee681f'},
-							data: [18851,27898, 38773, 51556, 71751, 90065, 106324]
+							data: [278.98, 387.73, 515.56, 717.51, 900.65, 1063.24,1176.01]
 							},
 							{
-							name: '农产品网络零售额（亿元）',
+							name: '农产品网络零售额（百亿元）',
 							type: 'bar',
 							itemStyle:{color:'#689c63'},
-							data: [500, 1000, 1505, 2200, 2436, 2305, 3975]
+							data: [ 10.00, 15.05, 22.00, 24.36, 23.05, 39.75,61.07]
 							},
 							{
-							name: '农产品网络销售额占网络销售总额比重',
+							name: '农产品网络销售额占网络销售总额比重（%）',
 							type: 'line',
 							itemStyle:{color:'#fab645'},
 							yAxisIndex: 1,
-							data: [2.68, 3.44, 3.88, 4.27, 3.39, 2.56,3.74]
+							data: [ 3.44, 3.88, 4.27, 3.39, 2.56,3.74,5.19]
 							}
 							]
 					};
 				myChart.setOption(option);
 			</script>
+		<h4>&nbsp;&nbsp;我国网络零售和农产品网络销量</h4>
 	<!--发展背景柱状图结束-->	
 
 	<!--第一部分选择开始-->
-			<p>我国电商市场保持着稳定高速增长、市场潜力足，同时农村电商正步入更高质量发展的快车道，成为推动电商助农的新引擎，接下来有两种电商助农方式可供选择，你希望选择电商直播新模式或是传统电商销售方式？
+			<p>
+				<br>&nbsp;&nbsp;&nbsp;&nbsp;我国电商市场稳定高速增长，农村电商步入更高质量发展的快车道，成为推动乡村振兴的新引擎。以下有两种电商助农方式，您希望选择电商直播新模式或是传统电商销售方式？
 			</p>
 
 			<p class="button">
@@ -251,7 +244,7 @@
 				<a href="#055">传统电商</a>
 			</p>
 		</div>
-		</div>
+
 	<!--第一部分选择结束-->
 
 	<!--电商直播部分开始-->
@@ -259,7 +252,7 @@
 			<h1 id="044" name="044">直播带货唤醒乡村活力</h1>	
 			<hr>
 				<!--类柱状图-->
-				<div id="maintwo" style="width:600px;height:350px;left:9%;margin-top:30px"></div>
+				<div id="maintwo" style="width:300px;height:280px;margin: 0 auto;margin-top: -80px;margin-bottom: 20px"></div>
 					<script>
 					var myChart = echarts.init(document.getElementById('maintwo'));
 					// 指定图表的配置项和数据
@@ -268,7 +261,7 @@
 					var item = {value:9610,
 							itemStyle:{color:'#ee681f',opacity:0.6}}
 					var option = { title: {
-					text: '中国直播电商市场规模（亿元）',x:'center',y:'top',textStyle: {
+					text: '',x:'center',y:'bottom',textStyle: {
 							color: "#412614"}},
 					tooltip: {
 						trigger: 'axis',
@@ -279,13 +272,13 @@
 							return params[0].name + ': ' + params[0].value;
 						}
 					},grid: {
-						left: '15%',
-						right: '15%',
+						left: '5%',
+						right: '5%',
 						bottom: '10%',
 						containLabel: true
 					},
 					xAxis: {
-						data: ['2017年', '2018年', '2019年', '2020年(预测）' ],
+						data: ['2017年', '2018年', '2019年', '2020年' ],
 						axisTick: {show: false},
 						axisLine: {show: false},
 						axisLabel: {
@@ -345,59 +338,19 @@
 				};
 				myChart.setOption(option);
 			</script>
+			<h4>&nbsp;&nbsp;中国直播电商市场规模</h4>
 			<!--类柱状图结束-->
 			
 			<!--矩形树图-->
-			<div id="mainthree" style="width:600px;height:350px;margin-right:12%;float:right;margin-top: -355px"></div>
-				<script>
-					var myChart = echarts.init(document.getElementById('mainthree'));
-
-			// 指定图表的配置项和数据
-				var option = {
-					title: {
-						text: '2019年典型直播电商平台交易额',x:'center',y:'top',textStyle: {
-								color: "#412614"}},
-						color:['#f1864c','#689c63'],
-						series: [{
-							itemStyle:{borderColor:'#FAF5DD',borderWidth:0.6},
-							type: 'treemap',
-							data: [{
-								name: '第二阶梯',            // First tree
-								value: 1850,
-								children: [{
-									name: '蘑菇街：约50亿元',       // First leaf of first tree
-									value: 50
-								}, {
-									name: '快手：600-800亿元',       // Second leaf of first tree
-									value: 800
-								},{
-									name: '抖音：约1000亿元',       // Second leaf of first tree
-									value: 1000
-								}]
-							}, {
-								name: '直播电商',            // Second tree
-								value: 4600,
-								children: [{
-									name: '第一阶梯',       // Son of first tree
-									value: 20,
-									children: [{
-										name: '淘宝直播：2500亿元',  // Granson of first tree
-										value: 2500},{
-										name: '京东直播：超2000亿元',  // Granson of first tree
-										value: 2100
-									}
-									]
-								}]
-							}]
-						}]
-					};
-				myChart.setOption(option);
-		</script>	
+			<div class="zhibo">
+					<img src="img/zhiboduibi.png" alt="zhibo" width="80%">
+				</div>
+			<h4>&nbsp;&nbsp;2020年直播电商平台商品交易额</h4>
 		<!--矩形树图结束-->
 			
 		<div class="control">
 			<p>
-				网络直播的发展速度势不可挡，借助网络直播，让农产品以更直观、更简单的形式走向市场。建立共赢的生态结构，才能让直播在助力农产品销售上走得更远。当然，为更加合理地运用电商助农，我们应该对电商模式有更深入的认识，接下来你可以继续了解传统电商，也可以点击继续故事去探寻电商直播助农和传统电商助农的不同之处。
+				&nbsp;&nbsp;&nbsp;&nbsp;网络直播发展迅速，借助网络直播，农产品能够以更加直观和简单的形式走向市场。接下来，您可以了解传统电商，也可点击“继续故事”探寻电商直播助农和传统电商助农的差异。<br>
 			</p>	
 			<div class="button">
 				<a href="#066">继续故事</a>
@@ -410,12 +363,12 @@
 		<div id="tradition">
 			<h1 class="tradionTitle" id="055" name="055">传统电商探寻新道路</h1>
 			<!--环形图-->
-			<div id="mainfour" style="width:570px;height:360px;margin-left:8%"></div>
+			<div id="mainfour" style="width:290px;height:290px;margin: 0 auto"></div>
 			<script>
 			var myChart = echarts.init(document.getElementById('mainfour'));
 				var option = {
 					title: {
-						text: '传统电商依然占主体地位',x:'center',y:'top',textStyle: {
+						text: '',x:'center',y:'top',textStyle: {
 								color: "#412614"}},
 						color:['#f1864c','#689c63','#98BE95'],
 						tooltip: {
@@ -423,8 +376,7 @@
 							formatter: '{a} <br/>{b}: {c} ({d}%)'
 						},
 						legend: {
-							orient: 'vertical',
-							right:-20,top:50,
+							top:0,left:'center',
 							data: ['传统B2B电商', '社交新零售电商', '领域垂直电商和自媒体电商']
 						},
 						series: [
@@ -458,96 +410,12 @@
 					};
 			myChart.setOption(option);
 			</script>
-
-			<!--满意度-->
-			<div id="mainfive" style="width:600px;height:420px;margin-right:200px;float:right;margin-top: -360px"></div>
-				<script>
-					var myChart = echarts.init(document.getElementById('mainfive'));
-							 var option = {
-									title: {
-								text: '传统电商助农公众评价满意度较高',x:'center',y:'top',textStyle: {
-								color: "#412614"}},
-
-						color:['#b34e17','#ee681f','#f1864c','f49e70'],
-						tooltip: {
-							trigger: 'item',
-							formatter: "{a} <br/>{b} : {c}%"
-						},
-						toolbox: {
-							feature: {
-								dataView: {readOnly: false},
-								restore: {},
-								saveAsImage: {}
-							}
-						},
-
-						series: [
-							{
-								name: '预期',
-								type: 'funnel',
-								left: '15%',
-								width: '70%',
-								label: {
-									formatter: '{b}预期'
-								},
-								labelLine: {
-									show: false
-								},
-								itemStyle: {
-									opacity: 0.8
-								},
-								emphasis: {
-									label: {
-										position: 'inside',
-										formatter: '{b}预期: {c}%'
-									}
-								},
-								data: [
-									{value: 80, name: '销购双赢'},
-									{value: 60, name: '促进电商市场良性发展'},
-									{value: 40, name: '富有社会责任感'},
-									{value: 20, name: '体现平台的专业与高效'},
-								]
-							},
-							{
-								name: '结果',
-								type: 'funnel',
-								left: '35%',
-								width: '30%',
-								maxSize: '80%',
-								label: {
-									position: 'inside',
-									formatter: '{c}%',
-									color: '#fff'
-								},
-								itemStyle: {
-									opacity: 0.5,
-									borderColor: '#fff',
-									borderWidth:2
-								},
-								emphasis: {
-									label: {
-										position: 'inside',
-										formatter: '{b}实际: {c}%'
-									}
-								},
-								data: [
-									{value: 58.1, name: '实现销购两端的双赢'},
-									{value:  53.3, name: '促进电商市场良性发展'},
-									{value: 47.6, name: '富有社会责任感'},
-									{value: 39.7, name: '体现平台的专业与高效'},
-
-								]
-							}
-						]
-					};
-
-				myChart.setOption(option);
-				</script>
+           <h4>&nbsp;&nbsp;传统电商仍占主体</h4>
+			
 
 				<div class="control">
 					<p>
-					传统电商借助渠道去中间化、购物体验便捷等快速成长起来，但也面临消费者体验缺失、商家营销成本提高、流量天花板有限等问题，传统电商正在寻求发展新道路。接下来你可以继续了解电商直播，也可点击“继续故事”探寻新电商直播助农和传统电商助农的不同之处。
+					<br><br>&nbsp;&nbsp;&nbsp;&nbsp;传统电商借助渠道去中间化、购物体验便捷等快速成长起来，但也面临消费者体验缺失、商家营销成本提高、流量天花板有限等问题，传统电商正在寻求发展新道路。接下来您可以继续了解电商直播，也可点击“继续故事”探寻新电商直播助农和传统电商助农的不同之处。<br><br>
 					</p>	
 					<div class="button">
 						<a href="#066">继续故事</a>
@@ -559,133 +427,15 @@
 			
 	<!--电商对比开始-->
 			<div class="special">
-				<h1 id="066" name="066">传统电商助农和新电商助农在业务模式上具有明显差异</h1>
+				<h1 id="066" name="066">电商助农新旧业务模式差异大</h1>
 			</div>
+			<div class="position1">
+					<img src="img/model.png" alt="model" width="65%">
+				</div>
 			
-			<div id="mainsix" style="width:500px;height:340px;margin-left:15%;margin-top:4%"></div>
-			<script>
-			var myChart = echarts.init(document.getElementById('mainsix'));
-				var option = {
-							title: {
-								text: '传统电商助农业务模型',x:'center',y:'top',textStyle: {
-								color: "#412614"}},
-							color:['#ee681f'],
-							tooltip: {},
-							animationDurationUpdate: 1500,
-							animationEasingUpdate: 'quinticInOut',
-							series: [
-								{
-									type: 'graph',
-									layout: 'none',
-									symbolSize: 100,
-									roam: true,
-									label: {
-										show: true
-									},
-									edgeSymbol: ['circle', 'arrow'],
-									edgeSymbolSize: [4, 10],
-									edgeLabel: {
-										fontSize: 20
-									},
-									data: [{
-										name: '流量\n（店面，人找货）',
-										x: 400,
-										y: 400
-									}, {
-										name: '技术服务\n（专业合作社管理）',
-										x: 600,
-										y: 400
-									}, {
-										name: '数据\n（覆盖以大区\n为单位的合作社\n或基地企业）',
-										x: 500,
-										y: 500
-									}],
-									// links: [],
-									links: [{
-										source: '流量\n（店面，人找货）',
-										target: '技术服务\n（专业合作社管理）'
-									},{
-										source: '技术服务\n（专业合作社管理）',
-										target: '数据\n（覆盖以大区\n为单位的合作社\n或基地企业）'
-									}, {
-										source: '数据\n（覆盖以大区\n为单位的合作社\n或基地企业）',
-										target: '流量\n（店面，人找货）'
-									}],
-									
-									lineStyle: {
-										opacity: 1,
-										width: 3,
-										curveness: 0,
-										color:'#98BE95'},
-									}
-							]
-						};
-			myChart.setOption(option);
-			</script>
-			
-			<div id="mainseven" style="width:500px;height:340px;margin-right:240px;float:right;margin-top: -340px"></div>
-			<script>
-				var myChart = echarts.init(document.getElementById('mainseven'));
-					var option = {
-							title: {
-								text: '新电商助农业务模型',x:'center',y:'top',textStyle: {
-								color: "#412614"}},
-							color:['#ee681f'],
-							tooltip: {},
-							animationDurationUpdate: 1500,
-							animationEasingUpdate: 'quinticInOut',
-							series: [
-								{
-									type: 'graph',
-									layout: 'none',
-									symbolSize: 100,
-									roam: true,
-									label: {
-										show: true
-									},
-									edgeSymbol: ['circle', 'arrow'],
-									edgeSymbolSize: [4, 10],
-									edgeLabel: {
-										fontSize: 20
-									},
-									data: [{
-										name: '新流量\n（场景化，货找人）',
-										x: 400,
-										y: 400
-									}, {
-										name: '新技术服务\n（AI+人，直播）',
-										x: 600,
-										y: 400
-									}, {
-										name: '新数据\n（覆盖所有产区\n的数据和信息）',
-										x: 500,
-										y: 500
-									}],
-									// links: [],
-									links: [{
-										source: '新流量\n（场景化，货找人）',
-										target: '新技术服务\n（AI+人，直播）'
-									},{
-										source: '新技术服务\n（AI+人，直播）',
-										target: '新数据\n（覆盖所有产区\n的数据和信息）'
-									}, {
-										source: '新数据\n（覆盖所有产区\n的数据和信息）',
-										target: '新流量\n（场景化，货找人）'
-									}],
-									
-									lineStyle: {
-										opacity: 1,
-										width: 3,
-										curveness: 0,
-										color:'#98BE95'},
-									}
-							]
-						};
-				myChart.setOption(option);
-			</script>
 			<div class="control">
 				<p>
-					了解传统电商助农方式和新电商助农方式的差异后，相信你对电商助农有了更高的期待与肯定，那么接下来你将通过了解部分典型电商平台的成功案例来寻找你心中的合适电商平台来销售农产品。
+					&nbsp;&nbsp;&nbsp;&nbsp;通过以上了解，您一定对电商助农的新模式有了更高的期待。接下来您将了解典型电商平台的成功案例，为您的农产品销售寻找到合适的电商平台。
 				</p>	
 				<div class="button">
 					<a href="#077">寻找平台</a>
@@ -695,21 +445,22 @@
 
 	<!--电商平台开始-->
 			<div class="firstpart">
-				<h1 id="077" name="077">电商平台积极抗疫，花式助农纾困解难</h1>
+				<h1 id="077" name="077">电商平台花式助农 抗疫期间纾困解难</h1>
 				<div class="icon">
-					<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-1710.jpg" alt="icon" width="1100px">
+					<img src="img/huangshizhunong.jpg" alt="icon" width="100%">
 				</div>
-				<div class="control">
-					<p>
-					各大电商平台积极开展助农措施，并取得显著成效，以下是两大平台电商助农的生动例子，点击想要了解的电商平台可查看它们的详细助农情况。
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;疫情期间各大电商平台积极采取助农措施，取得显著成效。以下是两大平台电商助农的生动例子，点击图标可查看它们助农的详细情况。<br><br>
 					</p>
+				<div class="control">
+					
 					<div class="link">
 						<li>
-							<a href="page-201818340406-huangyuxuan-201818340407-jiazhongqi-1703.html" title="Click 拼多多" target="_blank">
-								<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-1706.jpg" alt="拼多多">
+							<a href="page3.html" title="Click 拼多多" target="_blank">
+								<img src="img/pinduoduo.png" alt="拼多多">
 							</a>
-							<a href="page-201818340406-huangyuxuan-201818340407-jiazhongqi-1704.html" title="Click 苏宁易购" target="_blank">
-								<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-1709.jpg" alt="苏宁易购">
+							<a href="page4.html" title="Click 苏宁易购" target="_blank">
+								<img src="img/suningyigou.png" alt="苏宁易购">
 							</a>
 						</li>
 					</div>
@@ -724,9 +475,9 @@
 
 	<!--结尾开始-->
 			<div class="lastCover">
-				<div class="control" id="088" name="088">
+				<div class="control2" id="088" name="088">
 					<p>
-					恭喜你成功通过电商助农的方式成功售出滞销的农产品，缓解了疫情带来的经济损失。<br>电商助农新模式，促进乡村振兴新发展，感谢你的网页体验。
+					恭喜您在电商助农的帮助下成功售出滞销的农产品，弥补了疫情带来的经济损失。<br>2021年，新的篇章已经来临，电商助农“新常态”，乡村振兴“新引擎”。<br>愿你我共同努力，奋力开创乡村振兴新局面。
 					</p>	
 					<div class="button" id="buttonLast">
 						<a href="#011">返回顶部</a>
@@ -740,8 +491,9 @@
 	<footer class="lineLast">
 		<p>
 		制作小组：黄钰璇、贾仲琪<br>
-		数据来源：商务大数据、艾媒数据中心、2019年中国电商兴农发展报告、2018年中国电子商务报告<br>
-		非商用，如有侵权，请联系374793620@qq.com
+		网络新闻编辑课作品，非商用<br>如有侵权，请联系374793620@qq.com<br><br>
+		数据来源<br>人民日报、经济日报、商务大数据、艾媒数据中心、2020年网络零售市场发展报告、2019年中国电商兴农发展报告、2018年中国电子商务报告
+		
 		</p>
 	</footer>
 </body>
