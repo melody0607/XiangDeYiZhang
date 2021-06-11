@@ -48,8 +48,8 @@ ol, ul {list-style: none;}
 				text-decoration: none;
 				border:none;
 				border-radius:30px;
-				padding:10px 30px 10px 30px;
-		        margin:95% 30% -20% 30%;}
+				padding:9px 30px 9px 30px;
+		        margin:100% 30% -22% 30%;}
    .logo a{color: #FFFFFF;
 	     font-size:18px;
          text-decoration: none;}
@@ -60,7 +60,7 @@ ol, ul {list-style: none;}
 	.story{background-image: url( ../img/headpicture.jpg);
 			background-color:#fdfcde;
 			background-size:115%;
-			margin:12% 9% 5% 9%;
+			margin:12% 10% 5% 10%;
 			border-radius:50px;}
 	.story p{font-size:13px;
 			padding: 9% 9% 17% 9%;
@@ -71,7 +71,7 @@ ol, ul {list-style: none;}
 
 	.buttonB{text-align: center;
 			padding-bottom:42px;float:right;
-			margin-top: -66px;
+			margin-top: -64px;
 			margin-right:20%}
 	.button a{background-color:#f89f35;
 				text-decoration: none;
@@ -127,13 +127,13 @@ h4{text-align: center;
 				padding-top:20px}
 	.control{line-height: 1.5;margin-top:7%}
     .control2{line-height: 1.5;margin-top:20%}
-.control2 p{padding-top:10%}
+.control2 p{padding-top:10%;line-height: 1.5}
 	.lastCover{;text-align: center;
 				background-image:url( ../img/ending.jpg);
 				background-size: 100% 100%;
 				background-attachment: fixed;
-				margin-top: -20px;
-				padding-bottom:750px}
+				margin-top: -75px;
+				padding-bottom:650px}
 	.link a img{border-radius:15px;
 			width:25%;
 			text-decoration: none;
@@ -142,7 +142,7 @@ h4{text-align: center;
 .position1{text-align: center;}
 .zhibo{text-align: center;
 	margin-bottom:8%;
-	margin-top:8%}
+	margin-top:7%}
 h4{text-align: center;
 	margin-right:5%;
 	margin-bottom: -0.2px}
@@ -150,7 +150,7 @@ h4{text-align: center;
 	#buttonLast{padding-top:20%;
 				margin-bottom: -100%}
 	.lineLast{background-color: #fdfcde;
-				margin:-80px 0 -50px 0;
+				margin:-120px 0 -50px 0;
 				padding:1px 0px 1px 0px}
 	.lineLast p{font-size:12px;
 			line-height: 1.5;
