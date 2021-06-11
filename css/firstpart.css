@@ -67,11 +67,11 @@ ol, ul {list-style: none;}
 			line-height: 1.5;}
 
 	.button{text-align: center;
-			padding-bottom:42px;}
+			padding-bottom:42px}
 
 	.buttonB{text-align: center;
 			padding-bottom:42px;float:right;
-			margin-top: -64px;
+			margin-top: -75px;
 			margin-right:20%}
 	.button a{background-color:#f89f35;
 				text-decoration: none;
@@ -147,10 +147,10 @@ h4{text-align: center;
 	margin-right:5%;
 	margin-bottom: -0.2px}
 	/*“返回顶部”*/
-	#buttonLast{padding-top:20%;
+	#buttonLast{padding-top:25%;
 				margin-bottom: -100%}
 	.lineLast{background-color: #fdfcde;
-				margin:-120px 0 -50px 0;
+				margin:-90px 0 -50px 0;
 				padding:1px 0px 1px 0px}
 	.lineLast p{font-size:12px;
 			line-height: 1.5;
