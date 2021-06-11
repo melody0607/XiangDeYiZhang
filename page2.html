@@ -14,16 +14,17 @@
 				<a href="index.html">返&nbsp;回</a>
 			</p>
 		</div>
+		<br>
 		<h1>电商兴农工作的背景和意义</h1>
 		<br>
 		<p class="p1">激发农村生产活力，助推农业产业化和规模化发展</p>
 		<p class="p2">促进农民增收和就业，推动农村消费发展和渐进升级，形成良性循环</p>
 		<p class="p1">助推农村基础设施建设，加快推进农村现代化</p>
-		<p class="p2">推动乡村振兴和美丽乡村建设，助力实现 2020 和 2035 目标</p>
+		<p class="p2">推动乡村振兴和美丽乡村建设，助力实现 2035 目标</p>
 		<br>
 		<h1>农村电商发展现状</h1>
 		<br>
-		<div id="maineight" style="width:550px;height:350px;margin-left:10%"></div>
+		<div id="maineight" style="width:380px;height:250px;margin: auto"></div>
 			<script type="text/javascript">
 				var myChart = echarts.init(document.getElementById('maineight'));
 				var option = { title: {
@@ -31,7 +32,8 @@
 									x:'center',
 									y:'bottom',
 									textStyle: {
-											color: "#412614"}},
+											color: "#412614",
+											fontSize:'12px'}},
 											tooltip:{
 											trigger: 'axis',
 											axisPointer: {
@@ -40,7 +42,8 @@
 											color: '#999'}}},
 							color:['#ee681f'],
 							grid:{bottom:'20%',
-    						  right:'5%'},
+    						  right:'10%',
+								 left:'12%'},
 							toolbox: {
 								feature: {
 									dataView: {show: true, readOnly: false},
@@ -55,7 +58,7 @@
 							xAxis: [
 								{
 									type: 'category',
-									data: ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019'],
+									data: [ '2013', '2014', '2015', '2016', '2017', '2018', '2019','2020'],
 									axisPointer: {
 										type: 'shadow'
 									}
@@ -66,8 +69,8 @@
 									type: 'value',
 									name: '农产品网络零售额',
 									min: 0,
-									max: 3000,
-									interval: 500,
+									max: 70,
+									interval: 10,
 									axisLabel:{color:'#412614',formatter: '{value} '},
 									axisLine:{
 									lineStyle:{color:'#412614'},},},
@@ -84,10 +87,10 @@
 							],
 							series: [
 								{
-									name: '网络农产品零售额（亿元）',
+									name: '网络农产品零售额（百亿元）',
 									type: 'bar',
-									barWidth:40,
-									data: [189.61, 500, 1000, 1505, 2200, 2436.6, 2305, 1873]
+									barWidth:25,
+									data: [ 5, 10, 15.05, 22, 24.37, 23.05, 39.75,61.07]
 								},
 								{
 									name: '农产品网络零售额同比增长（%）',
@@ -100,7 +103,7 @@
 						};
 						myChart.setOption(option);
 		</script>
-	<div id="mainnine" style="width:500px;height:360px;margin-right:180px;float:right;margin-top: -360px"></div>
+	<div id="mainnine" style="width:350px;height:280px;margin:auto;margin-top: 5%"></div>
 			<script type="text/javascript">
 			var myChart = echarts.init(document.getElementById('mainnine'));
 				var option = {
@@ -109,7 +112,8 @@
 							x:'center',
 							y:'bottom',
 							textStyle: {
-								color: '#412614'
+								color: '#412614',
+								fontSize:'15px'
 							}
 						},
 						color:['#f1864c','#689c63','#98BE95'],
@@ -169,11 +173,12 @@
 				myChart.setOption(option);
 		</script>
 		<br>
-		<br>
 	<footer class="lineLast">
 		<p>
-			制作小组：黄钰璇、贾仲琪<br>
-			数据来源：商务大数据、艾媒数据中心、2019年中国电商兴农发展报告、2018年中国电子商务报告<br>
+		制作小组：黄钰璇、贾仲琪<br>
+		网络新闻编辑课作品，非商用<br>如有侵权，请联系374793620@qq.com<br><br>
+		数据来源<br>人民日报、经济日报、商务大数据、艾媒数据中心、2020年网络零售市场发展报告、2019年中国电商兴农发展报告、2018年中国电子商务报告
+		
 		</p>
 	</footer>
 </body>

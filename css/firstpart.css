@@ -71,7 +71,7 @@ ol, ul {list-style: none;}
 
 	.buttonB{text-align: center;
 			padding-bottom:42px;float:right;
-			margin-top: -75px;
+			margin-top: -65px;
 			margin-right:20%}
 	.button a{background-color:#f89f35;
 				text-decoration: none;
@@ -88,7 +88,7 @@ ol, ul {list-style: none;}
 				font-size:18px;
 				color: #FFFFFF;
 				border-radius:30px;
-				padding:8px 17px 8px 17px;}
+				padding:9px 17px 9px 17px;}
 	.button-one{background-color:#f89f35;
 				text-decoration: none;
 				border:none;
@@ -150,7 +150,7 @@ h4{text-align: center;
 	#buttonLast{padding-top:25%;
 				margin-bottom: -100%}
 	.lineLast{background-color: #fdfcde;
-				margin:-70px 0 -50px 0;
+				margin:-55px 0 -50px 0;
 				padding:1px 0px 1px 0px}
 	.lineLast p{font-size:12px;
 			line-height: 1.5;
