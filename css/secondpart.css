@@ -16,10 +16,10 @@ body{margin: 0;
 .button a{background-color:#f89f35;
 			text-decoration: none;
 			border:none;
-			font-size:19px;
+			font-size:18px;
 			color: #FFFFFF;
 			border-radius:30px;
-			padding:10px 30px 10px 30px;
+			padding:7px 15px 7px 15px;
 			margin-left:50px;
 			margin-right:50px}
 h1{font-family: "黑体";
@@ -62,7 +62,7 @@ h1{font-family: "黑体";
 	margin-right: 5%;
 	margin-top:-125px}
 .lineLast{background-color: #fdfcde;
-				margin:15px 0 -50px 0;
+				margin:15px 0 0 0;
 				padding:1px 0px 1px 0px}
 	.lineLast p{font-size:12px;
 			line-height: 1.5;
