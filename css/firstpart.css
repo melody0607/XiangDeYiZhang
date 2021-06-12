@@ -85,15 +85,15 @@ ol, ul {list-style: none;}
 				font-size:18px;
 				color: #FFFFFF;
 				border-radius:30px;
-				padding:9px 40px 8px 39px;}
-    .buttonB{margin-left:30%;}
+				padding:9px 39.5px 8px 39px;}
+    .buttonB{margin-left:33%;}
 	.button-one{background-color:#f89f35;
 				text-decoration: none;
 				border:none;
 				font-size:18px;
 				color: #FFFFFF;
 				border-radius:30px;
-				padding:8px 35px 8px 35px;margin-left:30%;margin-bottom:4%;
+				padding:8px 35px 8px 35px;margin-left:33%;margin-bottom:4%;
 				cursor: pointer}
 /*---故事开头结束---*/
 
@@ -146,7 +146,7 @@ h4{text-align: center;
 	#buttonLast{padding-top:25%;
 				margin-bottom: -100%}
 	.lineLast{background-color: #fdfcde;
-				margin:-15px 0 -50px 0;
+				margin:-11px 0 -50px 0;
 				padding:1px 0px 1px 0px}
 	.lineLast p{font-size:12px;
 			line-height: 1.5;
